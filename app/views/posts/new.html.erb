@@ -1,0 +1,5 @@
+<%= form_for(@post) do |f| %>
+  <%= f.label :content, "Post goes here" %>
+  <%= f.text_field :content %>
+  <%= f.submit "Submit" %>
+<% end %>
